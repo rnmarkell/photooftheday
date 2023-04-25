@@ -1,0 +1,15 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+    implementation(group: 'com.twilio.sdk', name:'twilio', version:'8.11.0')
+    implementation 'org.slf4j:slf4j-simple:2.0.7'
+
+}
+
+defaultTasks 'clean', 'build'

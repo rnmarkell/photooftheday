@@ -1,0 +1,45 @@
+package business.apis.nasa;
+
+public class AstronomyPicture {
+
+  private String title;
+
+  private String url;
+
+  private String explanation;
+
+  private String copyright;
+
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public String getUrl() {
+    return url;
+  }
+
+  public void setUrl(String url) {
+    this.url = url;
+  }
+
+  public String getExplanation() {
+    return explanation;
+  }
+
+  public void setExplanation(String explanation) {
+    this.explanation = explanation;
+  }
+
+  public String getCopyright() {
+    return copyright;
+  }
+
+  public void setCopyright(String copyright) {
+    this.copyright = copyright;
+  }
+
+}
